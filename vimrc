@@ -1,6 +1,6 @@
 execute pathogen#infect()
 syntax on
 set background=dark
-color badwolf
+color dracula
 filetype plugin indent on
 call pathogen#helptags()
