@@ -1,7 +1,9 @@
 execute pathogen#infect()
 syntax on
-color dracula
+color gruvbox
 set background=dark
+let g:gruvbox_contrast_dark='hard'
+let g:gruvbox_improved_strings='1'
 filetype plugin indent on
 call pathogen#helptags()
 set term=xterm-256color
