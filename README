@@ -13,3 +13,7 @@ Switch to the `~/.vim` directory, and fetch submodules:
     git submodule init
     git submodule update
 
+Install the_silver_searcher for use with ack.vim
+
+https://github.com/ggreer/the_silver_searcher
+
