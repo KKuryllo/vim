@@ -19,6 +19,6 @@ endif
 
 let g:clang_format#detect_style_file=1
 map <C-K> :ClangFormat <cr>
-imap <C-K> <c-o> :ClangFormat <cr>
+imap <C-K> <C-o> :ClangFormat <cr>
 
 let g:ackprg = 'ag --nogroup --nocolor --column'
