@@ -4,13 +4,15 @@ Installation:
 
 Create symlinks:
 
+    for vim support:
     ln -s ~/.vim/vimrc ~/.vimrc
+
+    for tmux support:
     ln -s ~/.vim/tmux.conf ~/.tmux.conf
 
     for neovim support:
-
     ln -s ~/.vim ~/.config/nvim
-    ln -s ~/.vimrc ~/.config/nvim/init.vim
+    ln -s ~/.vim/vimrc ~/.config/nvim/init.vim
 
 Switch to the `~/.vim` directory, and fetch submodules:
 
