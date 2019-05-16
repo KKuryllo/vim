@@ -1,6 +1,6 @@
 execute pathogen#infect()
 syntax on
-color srcery 
+color elflord 
 set background=dark
 let g:gruvbox_contrast_dark='hard'
 let g:gruvbox_improved_strings='1'
@@ -8,6 +8,7 @@ let g:gruvbox_improved_strings='1'
 call pathogen#helptags()
 
 if has("nvim")
+    set clipboard+=unnamedplus
 else 
     set term=screen-256color
 endif
