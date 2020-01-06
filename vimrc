@@ -16,6 +16,8 @@ endif
 set expandtab
 set backspace=indent,eol,start
 
+set directory=/dev/shm
+
 if &term =~ 'screen-256color'
     " Disable Background Color Erase (BCE) so that color schemes
     " work properly when Vim is used inside tmux and GNU screen.
