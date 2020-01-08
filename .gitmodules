@@ -29,3 +29,6 @@
 [submodule "bundle/vim-qml"]
 	path = bundle/vim-qml
 	url = https://github.com/peterhoeg/vim-qml.git
+[submodule "bundle/kotlin-vim"]
+	path = bundle/kotlin-vim
+	url = https://github.com/udalov/kotlin-vim.git
