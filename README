@@ -1,6 +1,6 @@
 Installation:
 
-    git clone https://github.com/DigitalDiatom/vim.git ~/.vim
+    git clone https://github.com/KKuryllo/vim.git ~/.vim
 
 Create symlinks:
 
@@ -11,6 +11,7 @@ Create symlinks:
     ln -s ~/.vim/tmux.conf ~/.tmux.conf
 
     for neovim support:
+    mkdir -p ~/.config
     ln -s ~/.vim ~/.config/nvim
     ln -s ~/.vim/vimrc ~/.config/nvim/init.vim
 
