@@ -11,7 +11,10 @@ Create symlinks:
     ln -s ~/.vim/tmux.conf ~/.tmux.conf
 
     for neovim support:
+    # basically you want a .config directory without a nvim inside
+    rm -rf ~/.config/nvim
     mkdir -p ~/.config
+
     ln -s ~/.vim ~/.config/nvim
     ln -s ~/.vim/vimrc ~/.config/nvim/init.vim
 
